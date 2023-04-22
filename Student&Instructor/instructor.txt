@@ -1,0 +1,2 @@
+mohamed_tahoun	1	50	physics	cs
+osama_farouck	2	50	information_thiory	is
