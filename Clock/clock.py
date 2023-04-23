@@ -1,21 +1,20 @@
 from tkinter import *
 from time import strftime
-root = Tk()
-root.geometry("500x500")
+import customtkinter
+root = customtkinter.CTk()
+root.geometry("400x80")
 root.resizable(True,True)
 root.title('Clock')
-root.config(bg="#121212")
 root.iconbitmap("D:\Python\Clock\clock.ico")
+customtkinter.set_appearance_mode("system")
+customtkinter.set_default_color_theme("dark-blue")
 def time():
     string = strftime('%I:%M:%S %p')
-    mark.config(text = string)
+    mark.configure(text = string)
     mark.after(1000, time)
-mark = Label(root, 
-            font = ('calibri', 40, 'bold'),
-            pady=150,
-            foreground = '#b0b0b0',
-            bg='#121212')
+mark = customtkinter.CTkLabel(root, font = ('calibri', 40, 'bold'),pady=35,text=" ",fg_color="transparent")
+mark.grid(row=3,column=1)
 mark.pack(anchor = 'center')
 time()
  
-mainloop()
+root.mainloop()
