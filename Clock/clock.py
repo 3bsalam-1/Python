@@ -1,11 +1,11 @@
-from tkinter import *
+from tkinter import __all__
 from time import strftime
 import customtkinter
 root = customtkinter.CTk()
 root.geometry("400x80")
 root.resizable(True,True)
 root.title('Clock')
-root.iconbitmap("D:\Python\Clock\clock.ico")
+root.iconbitmap("D:\\Python\\Clock\\clock.ico")
 customtkinter.set_appearance_mode("system")
 customtkinter.set_default_color_theme("dark-blue")
 def time():
