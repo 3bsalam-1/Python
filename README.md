@@ -2,7 +2,7 @@
 
 ---
 
-### All projects that's made with python
+## All projects that's made with python
 
 
 
