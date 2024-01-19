@@ -1,9 +1,9 @@
 # Python
 
 ---
-<h3>
-All projects that's made with python
-</h3>
+
+### All projects that's made with python
+
 
 
 - Student and Instructor 🎓.
